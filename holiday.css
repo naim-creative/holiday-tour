@@ -1,0 +1,240 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.free{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 150px;
+    color: white;
+}
+
+.imageone{
+    width: 220px;
+    height: 380px;
+    background-image: url("https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGV1cm9wZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.imageone::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.imageone h3, .imageone .freeone{position: relative;}
+.imageone:hover:before{
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.imagetwo{
+    width: 220px;
+    height: 380px;
+    background-image: url("https://img.traveltriangle.com/attachments/pictures/1108456/original/Vaishno_Devi_Mandir.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagetwo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.imagetwo h3, .imagetwo .freeone{position: relative;}
+.imagetwo:hover:before{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.imagethree{
+    width: 220px;
+    height: 380px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKG7d9x8rfWG9huRRQQRgc3YKXH-gw7Ix0ss2A8LN-w&usqp=CAU&ec=48665698");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagethree::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.imagethree h3, .imagethree .freeone{position: relative;}
+.imagethree:hover:before{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.imagefour{
+    width: 220px;
+    height: 380px;
+    background-image: url("https://images.unsplash.com/photo-1597754865557-96ea6b53c9db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGltYWNoYWwlMjBwcmFkZXNoJTIwaW5kaWF8ZW58MHx8MHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagefour::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.imagefour h3, .imagefour .freeone{position: relative;}
+.imagefour:hover:before{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.imagefive{
+    width: 220px;
+    height: 380px;
+    background-image: url("https://cdn.britannica.com/13/1613-050-C2DFD001/Houseboats-shore-state-Srinagar-Nagin-Lake-India.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.imagefive::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.imagefive h3, .imagefive .freeone{position: relative;}
+.imagefive:hover:before{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.imageone h3 {
+    text-align: center;
+    margin: 30px;
+}
+
+.imagetwo h3{
+    text-align: center;
+    margin: 30px;
+
+}
+
+.imagethree h3{
+    text-align: center;
+    margin: 30px;
+
+}
+
+.imagefour h3{
+    text-align: center;
+    margin: 30px;
+}
+
+.imagefive h3{
+    text-align: center;
+    margin: 30px;
+
+}
+
+.one{
+    text-align: center;
+    margin:160px 0px 0px 0px;
+}
+
+.two {
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+
+
+.harry {
+    width: 70%;
+    height: 2px;
+    background-color: white;
+    padding: 0px 0px;
+    margin: 15px 35px;
+}
+
+.three{
+    text-align: center;
+    margin:20px 0px 0px 0px;
+}
+
+.four button {
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 7px 0px 0px 75px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.freeone{
+    transition: all 1s ease-in-out;
+}
+
+.imageone:hover .freeone{
+    transform: translateY(-40px);
+}
+
+.imagetwo:hover .freeone{
+    transform: translateY(-40px);
+}
+
+.imagethree:hover .freeone{
+    transform: translateY(-40px);
+}
+
+.imagefour:hover .freeone{
+    transform: translateY(-40px);
+    
+}
+
+.imagefive:hover .freeone{
+    transform: translateY(-40px);
+}
